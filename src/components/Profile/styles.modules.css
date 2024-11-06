@@ -1,0 +1,86 @@
+* {
+  font-family: system-ui;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.codigo {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 300px; 
+  padding: 30px;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto; 
+}
+
+.name, .contact {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  word-wrap: break-word; 
+  display: inline-block; 
+  padding: 5px 0;
+  box-shadow: 10px 2px 10px rgb(230, 230, 230, 0.2);
+
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin: 10px;
+  transition: 0.3s;
+  color: white;
+  border: none;
+  background: linear-gradient(#297BC2,
+  #3588C8,
+  #6DC4E3);
+  box-shadow: 10px 10px rgb(230, 230, 230, 0.2);
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 2px solid
+  #428CD1; 
+  margin: 2px 0; 
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+ 
+}
+
+hr {
+  width: 119%;
+  border: none;
+  border-top: 2px solid 
+  #428CD1; 
+  margin: 2px 0; 
+}
+.btn{
+  background: none;
+}
